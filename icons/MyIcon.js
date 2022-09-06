@@ -28,9 +28,9 @@ export function MoneyBackGuaranteeIcon(props) {
       <path
         d='M23 43C23 43 3 35 3 9L23 3L43 9C43 35 23 43 23 43Z'
         stroke='#CBD5E0'
-        stroke-width='4.8'
-        stroke-miterlimit='10'
-        stroke-linecap='square'
+        strokeWidth='4.8'
+        strokeMiterlimit='10'
+        strokeLinecap='square'
       />
     </svg>
   );
