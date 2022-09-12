@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Flex, Text, Heading, Button, VStack, HStack, Icon, Stack } from '@chakra-ui/react';
-import { MyIcon } from '/icons/MyIcon.jsx';
+import { MyIcon } from '../icons/Icon';
 
 export const ListItem = (props) => {
     const { children, ...rest } = props;

@@ -1,5 +1,5 @@
 import { HStack, Icon, Text, Box } from "@chakra-ui/react";
-import { MoneyBackGuaranteeIcon, HassleFreeIcon, MonthlySubscriptionIcon } from '/icons/MyIcon.js'
+import { MoneyBackGuaranteeIcon, HassleFreeIcon, MonthlySubscriptionIcon } from '../icons/Icon'
 
 function FeatureIcons(props) {
     const { icon, children, ...rest } = props;
