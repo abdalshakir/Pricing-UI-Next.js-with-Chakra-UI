@@ -18,7 +18,7 @@ function Pricing() {
             <Box maxW='1100px' margin='auto' mt='-60' bg='white' boxShadow='0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(0, 0, 0, 0.04)' borderRadius='12px'
                 overflow='hidden'>
                 <Flex direction={['column', 'column', 'row']}>
-                    <Box bg='#F0EAFB' p='20'>
+                    <Box bg='#F0EAFB' p={['10', '16', '20']}>
                         <VStack>
                             <Text fontWeight='extrabold' fontSize='2xl'>Premium PRO</Text>
                             <Heading as='h3' fontSize={['5xl', '5xl', '6xl']} mt='4'>$329</Heading>
