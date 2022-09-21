@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Pricing from '../components/Pricing';
 import Features from '../components/Features';
 
-function index() {
+export default function Home() {
   return (
     <div>
       <Header />
@@ -12,5 +12,3 @@ function index() {
     </div>
   )
 }
-
-export default index;
